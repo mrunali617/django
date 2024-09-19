@@ -8,5 +8,5 @@ import time
 def my_signal_handler(sender, instance, created, **kwargs):
     if created:
         print(f"Signal triggered at {timezone.now()}")
-        time.sleep(5)  # Simulate a time-consuming task (5 seconds delay)
+        time.sleep(5) 
         print(f"Signal processing done at {timezone.now()}")

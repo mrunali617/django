@@ -4,4 +4,4 @@ class MyAppConfig(AppConfig):
     name = 'myapp'
 
     def ready(self):
-        import myapp.signals  # Import the signal so it gets registered
+        import myapp.signals  
